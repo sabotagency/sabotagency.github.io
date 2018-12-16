@@ -1,13 +1,15 @@
 body {
     background-color:#aaaabd;
     margin-top: 30px;
-        scrollbar-face-color: #000000;
-    scrollbar-shadow-color: #2D2C4D;
-    scrollbar-highlight-color:#7D7E94;
-    scrollbar-3dlight-color: #7D7E94;
-    scrollbar-darkshadow-color: #2D2C4D;
-    scrollbar-track-color: #7D7E94;
-    scrollbar-arrow-color: #C1C1D1;
+    cursor: url(cursor.cur), pointer;
+}
+html{
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    user-select: none;
+    
+    
 }
 #wrap {
     width:50vw;
@@ -48,7 +50,7 @@ footer {
     z-index:3;
     height:200px;
     box-shadow:0 -10px 40px rgba(0,0,0,0.3);
-    background-color:#6b79ab;
+    background-color:#6f729c;
     border-radius: 15px;
 }
 h1, h2 {
@@ -173,7 +175,7 @@ h2 {
     /* background-color:#eee; */
     height:250px;
     border-radius:5px;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
     color: #5d4e4e;
     padding-top: 30px;
     font-family: 'Play', sans-serif;
@@ -184,10 +186,17 @@ a{
     color: #6f729c;
 }
 
-
+::-webkit-scrollbar-thumb { 
+    -webkit-box-shadow: inset 0 0 60px#6f729c;
+}
 ::-webkit-scrollbar {
-    display: none
+    width: 3px;
 }
 
 
-
+#mail{
+    -moz-user-select: text;
+    -khtml-user-select: text;
+    -webkit-user-select: text;
+    user-select: text;
+}
