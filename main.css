@@ -199,4 +199,6 @@ a{
     -khtml-user-select: text;
     -webkit-user-select: text;
     user-select: text;
+        font-size: 17px;
+
 }
