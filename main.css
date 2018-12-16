@@ -175,7 +175,7 @@ h2 {
     /* background-color:#eee; */
     height:250px;
     border-radius:5px;
-    /* overflow-y: scroll; */
+    overflow-y: scroll;
     color: #5d4e4e;
     padding-top: 30px;
     font-family: 'Play', sans-serif;
@@ -199,6 +199,5 @@ a{
     -khtml-user-select: text;
     -webkit-user-select: text;
     user-select: text;
-        font-size: 17px;
-
+    font-size: 17px;
 }
